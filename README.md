@@ -1,7 +1,4 @@
-# DicomFix-Community
-Advanced DICOM metadata normalizer and compliance tool optimized for Radiotherapy Treatment Planning Systems (TPS) such as Varian Eclipse.
-
-# DicomFix v3.8
+# DicomFix v3.10.0 Pro
 
 DicomFix is an advanced, high-performance medical imaging utility designed to analyze, normalize, and cure DICOM datasets for strict compatibility and seamless integration into demanding Radiotherapy Treatment Planning Systems (TPS), such as Varian Eclipse.
 
@@ -44,23 +41,30 @@ DicomFix is equipped with a premium, high-performance workstation interface desi
 
 ## Commercial & Support
 
-### Custom Integrations
-While DicomFix standard edition addresses common manufacturing non-compliances, oncology centers often deal with legacy or proprietary hardware. We offer custom developer support and tailored patch integration for specific scanner models and unique TPS error logs.
+### Premium & Pro Features
+DicomFix v3.10.0 Pro includes advanced, high-performance integration and diagnostic tools for medical physics workflows:
+* **Automated Audit PDF Reports**: Programmatically compiles clinical-grade PDF compliance certificates documenting all tag normalizations, private tag purges, and MR coordinate corrections. Features an explicit *Mathematical & Geometric Integrity Check* validating that the pixel matrix, voxel spacing, and patient coordinates (`Image Position` / `Image Orientation`) were preserved 100% untouched for absolute dosimetric and geometric safety. Review diagnostics dynamically through the in-app interactive HTML facsimile and save reports to your clinical records.
+* **Side-by-Side DICOM Header Compare**: Instantly compares source and fixed metadata headers side-by-side to review exact compliance transformations, normalization details, and value changes before exporting.
+* **Advanced Research Anonymizer**: Clinical research de-identification and de-identification tool designed to scrub patient identifiers, regenerate critical UIDs, and prepare datasets for secure multi-center research or clinical trials under strict privacy regulations.
 
-### Contact & Sponsorship
-For custom enterprise deployments, technical inquiries, institutional sponsorship tiers, and custom developer support, please:
-* Open a **technical or commercial support inquiry** via the **Issues** tab in this repository.
-* Reach out to our team via our custom support and licensing channels.
+These advanced capabilities are premium tools that can be activated upon custom request to the developer. We operate on a collaborative, peer-to-peer model, providing direct, personalized technical assistance to help you with workstation setup, scanner integration, and custom clinical workflow optimization.
+
+### Professional Collaboration & Communication Channels
+We provide direct technical support and customized onboarding to help you integrate DicomFix into your clinical environment (e.g., custom legacy hardware integration or specific TPS error logs). You can reach out directly via our three official, personalized communication channels:
+
+* **Official GitHub Community Issues Workspace**: https://github.com/DicomFix-Software/DicomFix-Community/issues
+* **LinkedIn Direct Messaging Pipeline**: https://www.linkedin.com/in/miguel-angel-yanez-sanchez/
+* **Direct Secure Professional Email**: miguelyanez18@gmail.com
 
 ---
 
-## Legal & Terms of Use
+## ⚖️ Legal Declarations & Disclaimer
 
 ### Copyright
-Copyright (c) 2026. All rights reserved.
+Copyright © 2026 Miguel Ángel Yánez Sánchez. All rights reserved. 
+DicomFix® and DicomFix Pro® are proprietary software utilities. Unauthorized copying, distribution, modification, or reverse engineering of the binary executables or source layout configurations via any medium is strictly prohibited without the express written permission of the author.
 
-### License Terms
-DicomFix Standard Edition is distributed as a pre-compiled, standalone executable free of charge for clinical, educational, and research use within medical physics and oncology departments.
+### Medical Disclaimer & Liability
+DicomFix is an advanced data-normalization utility intended exclusively for metadata compliance analysis, clinical research de-identification, and technical data auditing. It is NOT cleared as an active Medical Device by the FDA, CE, or any regulatory body. 
 
-* **Restrictions:** Modification, reverse-engineering, decompilation, disassembly, or commercial redistribution of the binary executable is strictly prohibited without explicit written authorization from the author.
-* **Warranty:** This software is provided "as is" without warranty of any kind, express or implied. In no event shall the authors be liable for any claim, damages, or other liability arising from the use of the software.
+The software does not alter high-fidelity clinical coordinates, voxel spatial dimension vectors, or pixel matrices. However, the final certified Medical Physicist or Radiation Oncologist retains absolute, non-delegable responsibility for verifying and validating the geometric, spatial, and dosimetric integrity of any dataset before importing it into a Treatment Planning System (TPS) or utilizing it for active human clinical treatment. The author assumes zero liability for clinical planning errors, database synchronization defects, or treatment deviations arising from the use of this software.
